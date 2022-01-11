@@ -1,0 +1,141 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding: 10px 10px 10px 10px;
+  margin: 40px 30px 5px 10px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 500px;
+  background-color: #2d25ad;
+}
+.link-button {
+  background-color: red;
+  color: #ffffff;
+  font-size: 30px;
+}
+.textDesing {
+  font-size: 55px;
+
+  width: 30px;
+  color: white;
+  padding-top: 40px;
+  font-weight: bold;
+}
+.imageSlot {
+  padding-top: 40px;
+  padding-right: 100px;
+}
+img {
+  width: 600px;
+  height: 400px;
+}
+a {
+  background-color: pink;
+  color: white;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px;
+  padding: 20px;
+  background-color: teal;
+}
+/*
+.card-container p{
+    width: 520px;
+    height: 351px;
+}
+*/
+.card-container .neymer {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px 10px 5px;
+  margin: 10px 15px 10px 5px;
+}
+.card-container .kane {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px 10px 5px;
+  margin: 10px 15px 10px 5px;
+  background-color: red;
+}
+.card-container .Bruyne {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px 10px 5px;
+  margin: 10px 15px 10px 5px;
+} /*
+@media only screen and (max-width: 900px) {
+    .neymer{
+        height:200px;
+        width:150px;
+        padding:5px;
+    }
+    .kane{
+        height:200px;
+        width:150px;
+        padding:5px;
+    }
+    .Bruyne{
+        height:200px;
+        width:150px;
+        padding:5px;
+    }
+    .neymar .neymar-img{
+        height:200px;
+        width:200px;
+    }
+  }
+  */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #cccccc;
+  padding: 10px 10px 10px 10px;
+}
+.grid-item {
+  background-color: #ffffff;
+  border: none;
+  margin: 10px 10px 10px 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.grid-item h1 {
+  margin-left: 15px;
+}
+.grid-item p {
+  margin-left: 15px;
+  font-size: 14px;
+}
+.last-finishing {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.last-text {
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 20px;
+  margin: 10px;
+  height: 300px;
+  width: 600px;
+}
+.last-text .live-watch {
+  border-radius: 5px;
+  border-bottom: 10px;
+
+  font-size: 30px;
+  background-color: #2d25ad;
+}
+.last-img img {
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
